@@ -11,7 +11,7 @@ const app = express()
 app.use(cookieParser())
 
 const corsOptions = {
-  origin: 'https://seo-tools-fork.vercel.app',
+  origin: 'https://seo-tools-fork-sooty.vercel.app',
   credentials: true, // Allow credentials (cookies)
 }
 
@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true }))
 app.use(express.json({ limit: '5mb' }))
 app.use(cookieParser())
 
-const dbURI = process.env.DB_URI || 'mongodb://localhost:27017/seoTool';
+const dbURI = process.env.DB_URI || 'mongodb://localhost:27017/seoTool'
 mongoose
   .connect(dbURI)
   .then(() => {
