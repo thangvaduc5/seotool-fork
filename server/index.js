@@ -11,7 +11,7 @@ const app = express()
 app.use(cookieParser())
 
 const corsOptions = {
-  origin: 'https://seo-tools-fork-lyart.vercel.app/',
+  origin: 'https://seo-tools-fork-lyart.vercel.app',
   credentials: true, // Allow credentials (cookies)
 }
 
