@@ -1,0 +1,21 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Honk&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalnia+Glaze:wght@100..700&family=Playwrite+BE+WAL:wght@100..400&family=Quicksand:wght@300..700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+#root {
+  height: 100vh;
+}
+.container-fluid {
+  padding: 0;
+}
+
+@media(max-width: 991px) {
+  .sidebar {
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+  }
+}
